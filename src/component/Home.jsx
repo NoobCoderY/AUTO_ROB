@@ -34,8 +34,12 @@ const Home = () => {
         </nav>
         <section>
           <div className="banners">
-            <div className="first_banner"></div>
-            <div className="second_banner"></div>
+            <div className="first_banner">
+
+            </div>
+            <div className="second_banner">
+              
+            </div>
           </div>
         </section>
         <section style={{ marginTop: "2rem" }}>
@@ -85,7 +89,7 @@ const Home = () => {
           </h3>
           <About />
         </section>
-        <section style={{ marginTop: "2rem" }}>
+        <section style={{ marginTop: "3rem" }}>
           <h3
             style={{
               textAlign: "center",
