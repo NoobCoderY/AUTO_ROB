@@ -16,7 +16,7 @@ const ClientGrid = () => {
                
                 return(
                     <Grid item xs={6} sm={3} md={3} >
-                    <div style={{ maxWidth:"18vw",borderRadius: "24px" ,backgroundColor:"#fff"}} className="clint_img">
+                    <div style={{  height:" 40vh",maxWidth:"18vw",borderRadius: "24px" }} className="clint_img">
                      <img src={data_img.image} alt="" ></img>
                     </div>
                   </Grid>
