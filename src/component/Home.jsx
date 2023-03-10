@@ -78,6 +78,7 @@ const Home = () => {
               fontSize: "1rem",
               letterSpacing: "8px",
               color: "grey",
+              marginTop:"0.5rem"
             }}
           >
             Let's work together
