@@ -35,7 +35,7 @@ const Home = () => {
 
             </div>
             <div className="second_banner">
-              
+              {/* <img src="assests/image/laptop.svg" alt=""/> */}
             </div>
           </div>
         </section>
