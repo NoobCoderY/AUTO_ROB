@@ -5,6 +5,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Project from "./Project";
 import ComapnyDes from "./ComapnyDes";
 import About from "./About";
+import Banner from "./Banner";
 const Home = () => {
   const darkTheme = createTheme({
     palette: {
@@ -34,12 +35,7 @@ const Home = () => {
         </nav>
         <section>
           <div className="banners">
-            <div className="first_banner">
-
-            </div>
-            <div className="second_banner">
-              
-            </div>
+            <Banner/>
           </div>
         </section>
         <section style={{ marginTop: "2rem" }}>
@@ -59,7 +55,7 @@ const Home = () => {
 
         <section style={{ marginTop: "2rem" }}>
           <ComapnyDes />
-        </section >
+        </section>
         <section style={{ marginTop: "2rem" }}>
           <h3
             style={{
@@ -72,7 +68,7 @@ const Home = () => {
             className="about_heading"
           >
             Have a project?Let's make great things!
-          </h3 >
+          </h3>
 
           <h3
             style={{
@@ -82,7 +78,7 @@ const Home = () => {
               fontSize: "1rem",
               letterSpacing: "8px",
               color: "grey",
-              marginTop:"0.5rem"
+              marginTop: "0.5rem",
             }}
           >
             Let's work together
@@ -101,21 +97,21 @@ const Home = () => {
           >
             Join Us
           </h3>
-         <div  className="joinus">
-          <p
-            style={{
-              textAlign: "center",
-              fontFamily: "Poppins",
-              fontWeight: "500",
-              fontSize: "1.3rem",
-              letterSpacing: "2px",
-              lineHeight:"40px"
-            }}
-          >
-            Are you passionate about working with clients to solve their
-            technological issues? We’re always looking for new talent to add to
-            our team. Get in touch to see if we’re a good fit.
-          </p>
+          <div className="joinus">
+            <p
+              style={{
+                textAlign: "center",
+                fontFamily: "Poppins",
+                fontWeight: "500",
+                fontSize: "1.3rem",
+                letterSpacing: "2px",
+                lineHeight: "40px",
+              }}
+            >
+              Are you passionate about working with clients to solve their
+              technological issues? We’re always looking for new talent to add
+              to our team. Get in touch to see if we’re a good fit.
+            </p>
           </div>
         </section>
       </ThemeProvider>

@@ -46,19 +46,55 @@ nav {
 
 .banners {
   display: flex;
-  border: 1px solid red;
   height: 82vh;
   min-height: 772px;
 }
 
 .first_banner {
-  flex-basis: 50%;
-  border: 1px solid blue;
+  flex-basis: 55%;
+  padding: 1.3rem;
+}
+
+.first_banner_second_heading h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.first_banner_third_heading-2 h3{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 64px;
+  color: #ffffff;
+  letter-spacing: -1.5px;
+}
+
+.first_banner_fourth_heading-2 h3{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 64px;
+  color: #ffffff;
+  letter-spacing: -1.5px;
+}
+
+.first_banner_playbutton{
+background: #FFFFFF;
+border-radius: 50%;
+width: 55px;
+height: 55px;
+color: black;
+margin-top: 1rem;
 }
 
 .second_banner {
-  flex-basis: 50%;
-  border: 1px solid blue;
+  flex-basis: 55%;
   background-image: url('/public/assests/image/laptop.svg');
   background-position: 100% 25%;
 }
@@ -333,6 +369,8 @@ letter-spacing: 0px;
   padding: 1rem 3rem 3rem 3rem;
 }
 
+
+
 @media screen and (max-width: 800px) {
   .nav_2_container li {
     font-size: 0.8em;
@@ -378,3 +416,17 @@ letter-spacing: 0px;
 }
   
 }
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+	
+  .div1{
+    font-size: 1rem !important;
+  }
+
+  .client_des_grid {
+    padding: 1rem;
+}
+
+  
+  
+}
+
