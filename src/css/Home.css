@@ -245,69 +245,66 @@ height: 320px;
   width: 8px;
   height: 8px;
   border-radius: 50%;
+  min-width: 8px;
   background-color: #ffffff;
   position: relative;
 }
 
-.dotted {
+.dotted-basic{
   position: absolute;
-  left: 3px;
-  top: 11px;
-  height: 5vw;
+  top: 50%;
+  z-index: -1;
+  height: 100%;
   border-left: 2px dashed rgb(45, 45, 45);
+}
+
+.dotted {
+  left: 3px;
 }
 
 .dot-2 {
   width: 10px;
   height: 10px;
+  min-width: 10px;
   border-radius: 50%;
   background-color: #ffffff;
   position: relative;
 }
 
 .dotted-2 {
-  position: absolute;
   left: 4px;
-  top: 11px;
-  height: 4vw;
-  border-left: 2px dashed rgb(45, 45, 45);
 }
 
 .dot-3 {
   width: 10px;
   height: 10px;
+  min-width: 10px;
   border-radius: 50%;
   background-color: #ffffff;
   position: relative;
 }
 
 .dotted-3{
-  position: absolute;
   left: 4px;
-  top: 11px;
-  height: 4vw;
-  border-left: 2px dashed rgb(45, 45, 45);
 }
 
 .dot-4 {
   width: 13px;
   height: 13px;
+  min-width: 13px;
   border-radius: 50%;
   background-color: #ffffff;
   position: relative;
 }
 
 .dotted-4 {
-  position: absolute;
   left: 5px;
-  top: 13px;
-  height: 4vw;
-  border-left: 2px dashed rgb(45, 45, 45);
 }
 
 .main_container {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .service_list_des li {
