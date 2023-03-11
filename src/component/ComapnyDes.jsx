@@ -27,8 +27,8 @@ const ComapnyDes = () => {
         <div className="service_list">
           <div className="main_container">
             <div className="dot">
-              <div className="dotted"></div>
             </div>
+            <div className="dotted dotted-basic"></div>
 
             <div
               className="service_list_des"
@@ -46,8 +46,8 @@ const ComapnyDes = () => {
           </div>
           <div className="main_container">
             <div className="dot-2">
-              <div className="dotted-2"></div>
             </div>
+            <div className="dotted-2 dotted-basic"></div>
 
             <div
               className="service_list_des"
@@ -65,8 +65,8 @@ const ComapnyDes = () => {
           </div>
           <div className="main_container">
             <div className="dot-3">
-              <div className="dotted-3"></div>
             </div>
+            <div className="dotted-3 dotted-basic"></div>
 
             <div
               className="service_list_des"
@@ -84,8 +84,8 @@ const ComapnyDes = () => {
           </div>
           <div className="main_container">
             <div className="dot-4">
-              <div className="dotted-4"></div>
             </div>
+            <div className="dotted-4 dotted-basic"></div>
 
             <div
               className="service_list_des"
