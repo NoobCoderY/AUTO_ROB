@@ -15,7 +15,7 @@ const Home = () => {
   });
   return (
     <div
-      style={{ paddingLeft: "3rem", paddingRight: "3rem", paddingTop: "1rem" }}
+      style={{ paddingLeft: "3.5rem", paddingRight: "3.5rem", paddingTop: "1rem" }}
     >
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />

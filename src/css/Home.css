@@ -1,5 +1,4 @@
 
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -8,7 +7,7 @@ nav {
 .logo {
   height: 95px;
   width: 145px;
-  margin-bottom: 15px;
+ 
 }
 
 .logo img {
@@ -19,6 +18,7 @@ nav {
 .nav_1_container {
   display: flex;
   flex-basis: 43%;
+  margin-top: 0.8rem;
 }
 
 .logo_content {
@@ -55,7 +55,7 @@ nav {
 
 .first_banner {
   flex-basis: 55%;
-  padding: 1.3rem;
+  padding: 2rem;
 }
 
 .first_banner_second_heading h3 {
@@ -382,6 +382,11 @@ letter-spacing: 0px;
   .nav_2_container {
     gap: 30px;
   }
+
+  .first_banner_second_heading h3 {
+    font-size: 23px !important;
+    line-height: 43px
+  }
 }
 
 @media only screen and (min-width: 700px) and (max-width: 900px) {
@@ -428,6 +433,24 @@ letter-spacing: 0px;
 
 .first_banner_second_heading h3{
   font-size: 29px;
+  line-height: 43px;
+}
+
+.client_count{
+  width: 7vw;
+}
+
+.team_count{
+  width: 7vw;
+}
+
+.project_count{
+  width: 7vw;
+}
+
+.service_des {
+  font-size: 1rem;
+  line-height: 24px;
 }
   
 }
@@ -452,6 +475,19 @@ letter-spacing: 0px;
 .first_banner_second_heading h3{
   font-size: 32px;
 }
+
+.client_count{
+  width: 7vw;
+}
+
+.team_count{
+  width: 7vw;
+}
+
+.project_count{
+  width: 7vw;
+}
+
 
   
   
