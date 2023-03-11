@@ -15,7 +15,7 @@ const efficiency = () => {
           <div
             style={{
               marginTop: "2em",
-              width: "17em",
+              
               fontWweight: "200",
             }}
           >
@@ -23,8 +23,8 @@ const efficiency = () => {
               style={{
                 letterSpacing: "-1px",
                 lineHeight: "34px",
-                fontSize: "36px",
-                fontWeight: "400px",
+                fontSize: "46px",
+                fontWeight: "400",
                 fontFamily: "Poppins",
               }}
             >
@@ -35,8 +35,8 @@ const efficiency = () => {
             style={{
               color: "#000000",
               marginTop: "1.3em",
-              fontSize: "24px",
-              width: "400px",
+              fontSize: "22px",
+              width: "86%",
               fontWeight: "500",
               lineHeight: "30px",
             }}

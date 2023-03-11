@@ -1,3 +1,5 @@
+
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -46,8 +48,9 @@ nav {
 
 .banners {
   display: flex;
-  height: 82vh;
-  min-height: 772px;
+  /* height: 82vh; */
+  min-height: 600px;
+  margin-top: 1rem;
 }
 
 .first_banner {
@@ -414,6 +417,18 @@ letter-spacing: 0px;
   .client_des_grid {
     padding: 1rem;
 }
+
+.first_banner_third_heading-2 h3{
+  font-size: 18px;
+}
+
+.first_banner_fourth_heading-2 h3{
+  font-size: 18px;
+}
+
+.first_banner_second_heading h3{
+  font-size: 29px;
+}
   
 }
 @media only screen and (min-width: 900px) and (max-width: 1100px) {
@@ -424,6 +439,18 @@ letter-spacing: 0px;
 
   .client_des_grid {
     padding: 1rem;
+}
+
+.first_banner_third_heading-2 h3{
+  font-size: 20px;
+}
+
+.first_banner_fourth_heading-2 h3{
+  font-size: 20px;
+}
+
+.first_banner_second_heading h3{
+  font-size: 32px;
 }
 
   
