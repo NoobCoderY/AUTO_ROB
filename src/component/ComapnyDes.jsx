@@ -32,16 +32,13 @@ const ComapnyDes = () => {
 
             <div
               className="service_list_des"
-              style={{ fontFamily: "Poppins", lineHeight: "32px" }}
+              style={{ fontFamily: "Poppins", lineHeight: "32px",fontSize: "1rem" }}
             >
-              <h1 style={{ fontSize: "1rem", fontWeight: "bolder" }}>
+              <span style={{ fontSize: "1rem", fontWeight: "bolder" }}>
                 Idea & Concept -
-              </h1>
-              
-              <span style={{ fontSize: "1rem", lineHeight: "32px" }}>
+              </span>
                 Try to identify and validate the best, advanced, and futuristic
                 idea.
-              </span>
             </div>
           </div>
           <div className="main_container">
@@ -51,16 +48,13 @@ const ComapnyDes = () => {
 
             <div
               className="service_list_des"
-              style={{ fontFamily: "Poppins", lineHeight: "32px" }}
+              style={{ fontFamily: "Poppins", lineHeight: "32px",fontSize: "1rem" }}
             >
-              <h1 style={{ fontSize: "1rem", fontWeight: "bolder" }}>
+              <span style={{ fontSize: "1rem", fontWeight: "bolder" }}>
                 Research -
-              </h1>
-             
-              <span style={{ fontSize: "1rem", lineHeight: "32px" }}>
+              </span>
                 We research technologies with intelligent and data-driven
                 automation systems.
-              </span>
             </div>
           </div>
           <div className="main_container">
@@ -70,16 +64,13 @@ const ComapnyDes = () => {
 
             <div
               className="service_list_des"
-              style={{ fontFamily: "Poppins", lineHeight: "32px" }}
+              style={{ fontFamily: "Poppins", lineHeight: "32px",fontSize: "1rem" }}
             >
-              <h1 style={{ fontSize: "1rem", fontWeight: "bolder" }}>
+              <span style={{ fontSize: "1rem", fontWeight: "bolder" }}>
                 Design & Development -
-              </h1>
-             
-              <span style={{ fontSize: "1rem", lineHeight: "32px" }}>
+              </span>
                 Evaluate the new technologies to enhance precision and operate
                 well enough.
-              </span>
             </div>
           </div>
           <div className="main_container">
@@ -89,13 +80,10 @@ const ComapnyDes = () => {
 
             <div
               className="service_list_des"
-              style={{ fontFamily: "Poppins", lineHeight: "32px" }}
+              style={{ fontFamily: "Poppins", lineHeight: "32px",fontSize: "1rem" }}
             >
-              <h1 style={{ fontSize: "1rem", fontWeight: "bolder" }}>Scale  - </h1>
-             
-              <span style={{ fontSize: "1rem", lineHeight: "32px" }}>
+              <span style={{ fontSize: "1rem", fontWeight: "bolder" }}>Scale  - </span>
                 Making Product more usable
-              </span>
             </div>
           </div>
         </div>
