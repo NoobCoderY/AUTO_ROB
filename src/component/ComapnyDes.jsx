@@ -34,9 +34,11 @@ const ComapnyDes = () => {
               className="service_list_des"
               style={{ fontFamily: "Poppins", lineHeight: "32px" }}
             >
-              <h1 style={{ fontSize: "1rem", fontWeight: "bolder" }}>
+              <span style={{ fontSize: "1rem", fontWeight: "bolder" }}>
+              <h1 >
                 Idea & Concept -
               </h1>
+              </span>
               
               <span style={{ fontSize: "1rem", lineHeight: "32px" }}>
                 Try to identify and validate the best, advanced, and futuristic

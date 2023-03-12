@@ -62,7 +62,9 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="second_banner"></div>
+      <div className="second_banner">
+        
+      </div>
     </>
   );
 };

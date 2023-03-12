@@ -25,7 +25,7 @@ const About = () => {
           </div>
         </div>
         <div className="col-2">
-          <img src="assests/image/about 1.png" alt=""></img>
+          <img src="assests/image/about 1.svg" alt=""></img>
         </div>
       </div>
     </>

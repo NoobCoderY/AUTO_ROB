@@ -10,7 +10,7 @@ const Home = () => {
   const darkTheme = createTheme({
     palette: {
       mode: "dark",
-      color: "#000000",
+      color: "black",
     },
   });
   return (

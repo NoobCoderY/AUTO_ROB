@@ -1,7 +1,7 @@
  export const valueArr=[
     {
         title:"Trust",
-        title_des:"We build trust through responsible actions and honest relationships. "
+        title_des:"We build trust thr- ough responsible actions and honest relation-ships. "
     },
     {
         title:"Accountability",

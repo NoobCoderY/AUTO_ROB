@@ -16,14 +16,14 @@ const efficiency = () => {
             style={{
               marginTop: "2em",
               
-              fontWweight: "200",
-            }}
+             
+            }} className="child-1_firstheading"
           >
             <p
               style={{
                 letterSpacing: "-1px",
                 lineHeight: "34px",
-                fontSize: "46px",
+                fontSize: "2.5rem",
                 fontWeight: "400",
                 fontFamily: "Poppins",
               }}
@@ -35,11 +35,13 @@ const efficiency = () => {
             style={{
               color: "#000000",
               marginTop: "1.3em",
-              fontSize: "22px",
-              width: "86%",
+              fontSize: "1.2rem",
+              // width: "86%",
               fontWeight: "500",
               lineHeight: "30px",
+              fontFamily: "Poppins",
             }}
+            className="child-1_secondheading"
           >
             <p>
               As an Innovation & Invention Company ,we believe in technology as
