@@ -11,9 +11,10 @@ const ContactPage = () => {
     },
   });
   return (
+    <div className="main_contact_page_container">
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <div className="main_contact_page_container">
+     
         <div className="contact_page_container_child_1">
           <div className="contact-us-div">
             <h1>CONTACT US</h1>
@@ -91,8 +92,9 @@ const ContactPage = () => {
         <div className="contact_page_container_child_2">
           <img src="assests/image/Mapsicle Map.png" alt=""></img>
         </div>
+        </ThemeProvider>
       </div>
-    </ThemeProvider>
+   
   );
 };
 

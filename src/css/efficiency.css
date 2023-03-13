@@ -159,7 +159,20 @@
   font-size: 13px;
   line-height: 24px;
   color: #000000;
+  
 }
+
+.value_card:hover{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.value_card:hover .card h1{
+  color: #FFFFFF;
+}
+.value_card:hover .card h2{
+  color: #FFFFFF;
+}
+
 
 .Tmain_container {
   display: flex;

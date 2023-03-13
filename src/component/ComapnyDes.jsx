@@ -26,78 +26,78 @@ const ComapnyDes = () => {
         </div>
         <div className="service_list">
           <div className="main_container">
-            <div className="dot">
-            </div>
+            <div className="dot"></div>
             <div className="dotted dotted-basic"></div>
 
             <div
               className="service_list_des"
-              style={{ fontFamily: "Poppins", lineHeight: "32px" }}
+              style={{
+                fontFamily: "Poppins",
+                lineHeight: "32px",
+                fontSize: "1rem",
+              }}
             >
               <span style={{ fontSize: "1rem", fontWeight: "bolder" }}>
-              <h1 >
                 Idea & Concept -
-              </h1>
               </span>
-              
-              <span style={{ fontSize: "1rem", lineHeight: "32px" }}>
-                Try to identify and validate the best, advanced, and futuristic
-                idea.
-              </span>
+              Try to identify and validate the best, advanced, and futuristic
+              idea.
             </div>
           </div>
           <div className="main_container">
-            <div className="dot-2">
-            </div>
+            <div className="dot-2"></div>
             <div className="dotted-2 dotted-basic"></div>
 
             <div
               className="service_list_des"
-              style={{ fontFamily: "Poppins", lineHeight: "32px" }}
+              style={{
+                fontFamily: "Poppins",
+                lineHeight: "32px",
+                fontSize: "1rem",
+              }}
             >
-              <h1 style={{ fontSize: "1rem", fontWeight: "bolder" }}>
+              <span style={{ fontSize: "1rem", fontWeight: "bolder" }}>
                 Research -
-              </h1>
-             
-              <span style={{ fontSize: "1rem", lineHeight: "32px" }}>
-                We research technologies with intelligent and data-driven
-                automation systems.
               </span>
+              We research technologies with intelligent and data-driven
+              automation systems.
             </div>
           </div>
           <div className="main_container">
-            <div className="dot-3">
-            </div>
+            <div className="dot-3"></div>
             <div className="dotted-3 dotted-basic"></div>
 
             <div
               className="service_list_des"
-              style={{ fontFamily: "Poppins", lineHeight: "32px" }}
+              style={{
+                fontFamily: "Poppins",
+                lineHeight: "32px",
+                fontSize: "1rem",
+              }}
             >
-              <h1 style={{ fontSize: "1rem", fontWeight: "bolder" }}>
+              <span style={{ fontSize: "1rem", fontWeight: "bolder" }}>
                 Design & Development -
-              </h1>
-             
-              <span style={{ fontSize: "1rem", lineHeight: "32px" }}>
-                Evaluate the new technologies to enhance precision and operate
-                well enough.
               </span>
+              Evaluate the new technologies to enhance precision and operate
+              well enough.
             </div>
           </div>
           <div className="main_container">
-            <div className="dot-4">
-            </div>
+            <div className="dot-4"></div>
             <div className="dotted-4 dotted-basic"></div>
 
             <div
               className="service_list_des"
-              style={{ fontFamily: "Poppins", lineHeight: "32px" }}
+              style={{
+                fontFamily: "Poppins",
+                lineHeight: "32px",
+                fontSize: "1rem",
+              }}
             >
-              <h1 style={{ fontSize: "1rem", fontWeight: "bolder" }}>Scale  - </h1>
-             
-              <span style={{ fontSize: "1rem", lineHeight: "32px" }}>
-                Making Product more usable
+              <span style={{ fontSize: "1rem", fontWeight: "bolder" }}>
+                Scale -{" "}
               </span>
+              Making Product more usable
             </div>
           </div>
         </div>

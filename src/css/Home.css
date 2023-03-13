@@ -100,9 +100,17 @@ margin-top: 1rem;
   flex-basis: 55%;
   background-image: url('/public/assests/image/laptop.svg');
   background-position: 100% 25%;
-  border-radius: 12rem 0 0 12rem;
+  border-radius: 21rem 0 0 23rem;
   border-color: #ffffff;
+  border-right: none;
+  background-color: black;
+  mix-blend-mode: plus-lighter;
+
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
+
 
 
 .project_heading {
@@ -237,12 +245,16 @@ object-fit: contain;
 }
 
 .service_list_des {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
+  /* align-items: center;
+  justify-content: center; */
   padding: 1rem;
-  gap: 5px;
+  /* gap: 5px; */
   letter-spacing: 1px;
+}
+
+.service_list_des span{
+  margin-right: 5px;
 }
 
 .dot {

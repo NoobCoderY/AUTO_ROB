@@ -1,6 +1,9 @@
 .main_contact_page_container {
   display: flex;
   padding: 1rem;
+  /* background-color: #000000;
+  color: #ffffff;
+  height: 100vh; */
 }
 
 .contact_page_container_child_1 {
