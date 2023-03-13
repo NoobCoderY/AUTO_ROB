@@ -315,3 +315,24 @@ line-height: 21px !important;
     border-radius: 16px;
 }
 }
+
+
+@media only screen and (min-width: 1300px) and (max-width: 1800px) {
+
+
+.list li{
+  font-size: 1.27rem !important;
+  line-height: 30px;
+}
+
+.list {
+  margin-top: 1.8em;
+  width: 80%;
+  margin-left: 13px;
+}
+
+.child-1_secondheading{
+  width: 82%;
+}
+
+}
