@@ -5,11 +5,11 @@ import "../../css/resourcepage.css"
 
 const ResourcesPage = () => {
   return (
-   <>
+   <div >
    <ResourceUpperSection/>
    <ResourcesBottomSection/>
 
-   </>
+   </div>
   )
 }
 

@@ -77,9 +77,16 @@
         width: 86% !important;
         font-size: 0.8rem !important;
     }
+
+    .contact_page_container_child_2 {
+      flex-basis: 50%;
+      max-height: 95vh;
+    }
+    
+   
 }
 
-@media only screen and (min-width: 1300px) and (max-width: 1800px) {
+/* @media only screen and (min-width: 1300px) and (max-width: 1800px) {
   
   
 .get_in_touch_div h3 {
@@ -122,5 +129,10 @@
 .visit_us{
   margin-top: 1.3rem !important;
 }
+
+.contact_page_container_child_2 {
+  flex-basis: 50%;
+  max-height: 95vh;
 }
+} */
 

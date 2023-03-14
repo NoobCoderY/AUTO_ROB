@@ -32,16 +32,14 @@ const ResourceUpperSection = () => {
           ))}
         </div>
       </section>
+
+      {/* Image */}
       <section>
         <div className="middle-image">
-          <div className="grey-line"></div>
-          <div className="image">
-            <div className="image-container">
-              <img src="assests/image/about1.svg" alt="" />
-            </div>
-          </div>
+        <img src="assests/image/about1.svg" alt="" />
         </div>
       </section>
+      
       <section>
         <div className="resourcemiddlesection">
           {detailsArr.map((item) => (
