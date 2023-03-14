@@ -1,11 +1,11 @@
 import React from "react";
-import "../css/Home.css";
+import "../../css/Home.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import Project from "./Project";
-import ComapnyDes from "./ComapnyDes";
-import About from "./About";
-import Banner from "./Banner";
+import Project from "../home/Project";
+import ComapnyDes from "../home/ComapnyDes";
+import About from "../home/About";
+import Banner from "../home/Banner";
 const Home = () => {
   const darkTheme = createTheme({
     palette: {

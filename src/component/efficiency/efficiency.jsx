@@ -1,8 +1,8 @@
-import "../css/efficiency.css";
+import "../../css/efficiency.css";
 import React from "react";
 import Card1 from "./Card_1";
 import Teams from "./Teams";
-import { valueArr } from "../constants/data";
+import { valueArr } from "../../constants/data";
 
 const efficiency = () => {
   return (

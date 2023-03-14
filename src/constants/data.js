@@ -51,3 +51,19 @@ export const clintArrImage=[
         image:"assests/image/9 14.png"
     }
 ]
+
+export const detailsArr=[
+    {
+        "no" : "1",
+        "text" : "Modals should only be used when an almost-instant response is required from the user. The task within the modal should also be short and non-recurring."
+    },
+    {
+        "no" : "2",
+        "text" : "Use modals to present critical urgent information to the user, e.g. system errors or something that has happened as a result of their action."
+        
+    },
+    {
+        "no" : "3",
+        "text" : "Confirming user decisions can be done with a modal. It’s important to ensure that the decision, and any potential actions that may result from it, is clearly explained within the modal."
+    }
+]

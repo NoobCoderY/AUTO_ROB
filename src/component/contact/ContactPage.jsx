@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/ContactPage.css";
+import "../../css/ContactPage.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 

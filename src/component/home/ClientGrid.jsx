@@ -1,7 +1,7 @@
 import React from 'react'
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
-import {clintArrImage} from "../constants/data"
+import {clintArrImage} from "../../constants/data"
 import { width } from '@mui/system';
 
 const ClientGrid = () => {

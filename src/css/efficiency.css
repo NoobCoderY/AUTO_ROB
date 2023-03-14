@@ -127,6 +127,8 @@
   border-radius: 16px;
 }
 
+
+
 /* .value_card:hover {
     background-color: #000000;
     color: white;
@@ -221,6 +223,13 @@ border-radius: 12px;
   line-height: 25px;
   color: #000000;
 }
+
+/* .list li{
+  font-family: 'Poppins';
+font-style: normal;
+  font-size: 0.9rem !important;
+  line-height: 26px;
+} */
 
 
 @media only screen and (min-width: 500px) and (max-width: 1100px) {
