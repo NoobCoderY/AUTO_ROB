@@ -93,9 +93,11 @@ const ContactPage = () => {
         </div>
         <div className="contact_page_container_child_2">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.114827184245!2d77.20653218198595!3d28.628901718705755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xcdee88e47393c3f1!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1678824399784!5m2!1sen!2sin"
-           
-            style={{ border: "0px" ,width:"100%" ,height:"100%" }}
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.114827184245!2d77.
+            20653218198595!3d28.628901718705755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!
+            4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xcdee88e47393c3f1!2sConnaught%20Place%2C%20
+            New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1678824399784!5m2!1sen!2sin"
+            style={{ border: "0px", width: "100%", height: "100%" }}
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"

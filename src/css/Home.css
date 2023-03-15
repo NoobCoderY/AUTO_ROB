@@ -98,19 +98,30 @@ margin-top: 1rem;
 
 .second_banner {
   flex-basis: 55%;
-  background-image: url('/public/assests/image/laptop.svg');
-  background-position: 100% 25%;
-  border-radius: 21rem 0 0 23rem;
+  /* background-image: url('/public/assests/image/laptop.jpg');
+  background-position: 50% 50%; */
+  /* border-radius: 21rem 0 0 23rem; */
+  background: radial-gradient(76.52% 76.52% at 34.6% 23.48%, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0.7;
+  /* border-radius: 50%; */
+  aspect-ratio: 1/1;
   border-color: #ffffff;
+  overflow: hidden;
+  /* transform: rotate(-45.68deg); */
   border-right: none;
-  background-color: black;
-  mix-blend-mode: plus-lighter;
-
+  mix-blend-mode: lighten;
+  right: 10%;
   display: block;
   max-width: 100%;
   height: auto;
 }
 
+.second_banner img{
+  /* transform: rotate(45.68deg); */
+  position: relative;
+  left: -15%;
+  top: -15%;
+}
 
 
 .project_heading {

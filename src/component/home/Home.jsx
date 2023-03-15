@@ -2,6 +2,7 @@ import React from "react";
 import "../../css/Home.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
+import { Link } from "react-router-dom";
 import Project from "../home/Project";
 import ComapnyDes from "../home/ComapnyDes";
 import About from "../home/About";
@@ -27,10 +28,10 @@ const Home = () => {
             <div className="logo_content">AN INNOVATION & INVENTION CO.</div>
           </div>
           <div className="nav_2_container">
-            <li>About Us</li>
+           <li>About Us</li>
             <li> Project</li>
             <li>Blog</li>
-            <li>Contact Us</li>
+            <li>Contact Us</li>  
           </div>
         </nav>
         <section>
