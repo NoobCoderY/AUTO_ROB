@@ -64,7 +64,7 @@ const Banner = () => {
       </div>
       <div className="second_banner" style={{position:'relative',bottom:'5vh',left:'4vw'}}>
         <div style={{width:'100%',height:'100%',position:'absolute',zIndex:'10'}}>
-          <img src="assests/image/laptop.png" style={{width:'100%',height:'100%',objectFit:'cover'}} alt="" />
+          <img src="assests/image/laptop.png" style={{width:'100%',height:'100%',objectFit:'contain'}} alt="" />
         </div>
       </div>
     </>

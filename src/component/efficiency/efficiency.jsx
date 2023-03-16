@@ -6,7 +6,7 @@ import { valueArr } from "../../constants/data";
 
 const efficiency = () => {
   return (
-    <div className="e_main_container">
+    <div className="e_main_container root">
       <div className="parent">
         <div className="child-1">
           <div className="about-us-div">

@@ -20,6 +20,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-items: flex-end;
 }
 
 .about-us-div {
@@ -49,6 +50,10 @@
   color: #999ca0;
 }
 
+.list li{
+  font-family: 'Poppins';
+}
+
 .about_image {
   /* height: 340px; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -73,8 +78,6 @@
   flex-direction: column;
   gap: 1em;
   /* padding: 1.8em; */
-  position: relative;
-  left: 2em;
   padding: 1.8em 2.5em 1.8em 3em;
   flex-basis: 35%;
 }
@@ -252,8 +255,6 @@ font-size: 0.8rem !important;
   display: flex;
   flex-direction: column;
   gap: 1em;
-  position: relative;
-  left: 2em;
   padding: 1.8rem 2em 1.8em 1em;
 }
 

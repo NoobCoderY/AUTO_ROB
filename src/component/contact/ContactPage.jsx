@@ -11,7 +11,7 @@ const ContactPage = () => {
     },
   });
   return (
-    <div className="main_contact_page_container">
+    <div className="main_contact_page_container root">
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
 

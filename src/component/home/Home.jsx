@@ -17,6 +17,7 @@ const Home = () => {
   return (
     <div
       style={{ paddingLeft: "3.5rem", paddingRight: "3.5rem", paddingTop: "1rem" }}
+      className='root'
     >
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
@@ -39,7 +40,7 @@ const Home = () => {
             <Banner/>
           </div>
         </section>
-        <section style={{ marginTop: "2rem" }}>
+        <section style={{ marginTop: "0rem" }}>
           <Project />
         </section>
 

@@ -5,7 +5,7 @@ import "../../css/resourcepage.css"
 
 const ResourcesPage = () => {
   return (
-   <div >
+   <div className='root'>
    <ResourceUpperSection/>
    <ResourcesBottomSection/>
 
